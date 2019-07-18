@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import * as CanvasJS from '../assets/canvasjs.min';
+import $ from 'jQuery';
 
 @Component({
   selector: 'app-root',
@@ -7,8 +8,8 @@ import * as CanvasJS from '../assets/canvasjs.min';
   styleUrls: ['./app.component.css'],
 })
 
-export class AppComponent implements OnInit {  
-	title = 'canvasjs-angular';
+export class AppComponent implements OnInit {
+  title = 'canvasjs-angular';
    
   ngOnInit() {
 	var totalRevenue = 15341110;
